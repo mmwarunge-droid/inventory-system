@@ -90,6 +90,13 @@ venv\Scripts\activate
 Mac/Linux
 source venv/bin/activate 3. Install Dependencies
 pip install -r requirements.txt
+
+Install Packages
+pip install flask requests pytest
+
+Then activate accordingly:
+source venv/bin/activate
+
 Running the Flask API
 python app.py
 
